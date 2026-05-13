@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "msmengr/demo-jenkins-app"
+        DOCKER_IMAGE = "11104002818/demo-jenkins-app"
     }
 
     stages {
