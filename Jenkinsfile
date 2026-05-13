@@ -9,7 +9,7 @@ pipeline {
         
         stage('Clone Repo') {
             steps {
-                sh 'git clone https://github.com/11104002818/docker-deplo.git'
+                sh 'git clone https://github.com/tchophel/docker-deplo.git'
             }
         }
 
