@@ -9,7 +9,10 @@ pipeline {
         
         stage('Clone Repo') {
             steps {
-                sh 'git clone https://github.com/tchophel/docker-deplo.git'
+                sh '''
+                rm -rf docker-deplo
+                git clone https://github.com/tchophel/docker-deplo.git
+                '''
             }
         }
 
